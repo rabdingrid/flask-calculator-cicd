@@ -1,9 +1,3 @@
-import sys
-import os
-
-# ensure project root is in PYTHONPATH *before* importing app
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
-
 import pytest
 from app import app
 
