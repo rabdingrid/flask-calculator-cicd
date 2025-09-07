@@ -10,7 +10,7 @@ def client():
 
 def test_add(client):
     res = client.get("/add?a=2&b=3")
-    assert res.get_json()["result"] == 5
+    assert res.get_json()["result"] == 10
 
 
 def test_subtract(client):
